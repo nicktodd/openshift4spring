@@ -1,4 +1,4 @@
-def projectName = 'nick-todd-springapp-nodatabase-openshift4'
+def projectName = 'nick-todd-springapp-os4'
 def version = "0.0.${currentBuild.number}"
 def dockerImageTag = "${projectName}:${version}"
 
